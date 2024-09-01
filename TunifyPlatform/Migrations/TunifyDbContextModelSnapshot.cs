@@ -22,6 +22,155 @@ namespace TunifyPlatform.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("RoleNameIndex")
+                        .HasFilter("[NormalizedName] IS NOT NULL");
+
+                    b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "admin",
+                            ConcurrencyStamp = "00000000-0000-0000-0000-000000000000",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        },
+                        new
+                        {
+                            Id = "user",
+                            ConcurrencyStamp = "00000000-0000-0000-0000-000000000000",
+                            Name = "User",
+                            NormalizedName = "USER"
+                        });
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RoleId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetRoleClaims", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserClaims", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+                {
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ProviderKey")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ProviderDisplayName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("LoginProvider", "ProviderKey");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserLogins", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("RoleId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("UserId", "RoleId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetUserRoles", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId", "LoginProvider", "Name");
+
+                    b.ToTable("AspNetUserTokens", (string)null);
+                });
+
             modelBuilder.Entity("TunifyPlatform.Models.Album", b =>
                 {
                     b.Property<int>("Id")
@@ -61,6 +210,71 @@ namespace TunifyPlatform.Migrations
                         });
                 });
 
+            modelBuilder.Entity("TunifyPlatform.Models.ApplicationUser", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers", (string)null);
+                });
+
             modelBuilder.Entity("TunifyPlatform.Models.Artist", b =>
                 {
                     b.Property<int>("Id")
@@ -92,6 +306,48 @@ namespace TunifyPlatform.Migrations
                         {
                             Id = 3,
                             Name = "Artist 3"
+                        });
+                });
+
+            modelBuilder.Entity("TunifyPlatform.Models.ArtistSongs", b =>
+                {
+                    b.Property<int>("ArtistId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SongId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ArtistId", "SongId");
+
+                    b.HasIndex("SongId");
+
+                    b.ToTable("ArtistSongs");
+
+                    b.HasData(
+                        new
+                        {
+                            ArtistId = 1,
+                            SongId = 1
+                        },
+                        new
+                        {
+                            ArtistId = 2,
+                            SongId = 2
+                        },
+                        new
+                        {
+                            ArtistId = 3,
+                            SongId = 3
+                        },
+                        new
+                        {
+                            ArtistId = 1,
+                            SongId = 4
+                        },
+                        new
+                        {
+                            ArtistId = 2,
+                            SongId = 5
                         });
                 });
 
@@ -318,7 +574,7 @@ namespace TunifyPlatform.Migrations
                         {
                             UserId = 1,
                             Email = "admin@example.com",
-                            JoinDate = new DateTime(2024, 8, 16, 9, 57, 18, 214, DateTimeKind.Local).AddTicks(5822),
+                            JoinDate = new DateTime(2024, 8, 28, 14, 2, 5, 496, DateTimeKind.Local).AddTicks(3952),
                             SubscriptionId = 1,
                             Username = "admin"
                         },
@@ -326,7 +582,7 @@ namespace TunifyPlatform.Migrations
                         {
                             UserId = 2,
                             Email = "user1@example.com",
-                            JoinDate = new DateTime(2024, 8, 6, 9, 57, 18, 214, DateTimeKind.Local).AddTicks(5836),
+                            JoinDate = new DateTime(2024, 8, 18, 14, 2, 5, 496, DateTimeKind.Local).AddTicks(3966),
                             SubscriptionId = 1,
                             Username = "user1"
                         },
@@ -334,7 +590,7 @@ namespace TunifyPlatform.Migrations
                         {
                             UserId = 3,
                             Email = "user2@example.com",
-                            JoinDate = new DateTime(2024, 7, 27, 9, 57, 18, 214, DateTimeKind.Local).AddTicks(5843),
+                            JoinDate = new DateTime(2024, 8, 8, 14, 2, 5, 496, DateTimeKind.Local).AddTicks(3972),
                             SubscriptionId = 2,
                             Username = "user2"
                         },
@@ -342,7 +598,7 @@ namespace TunifyPlatform.Migrations
                         {
                             UserId = 4,
                             Email = "user3@example.com",
-                            JoinDate = new DateTime(2024, 7, 17, 9, 57, 18, 214, DateTimeKind.Local).AddTicks(5844),
+                            JoinDate = new DateTime(2024, 7, 29, 14, 2, 5, 496, DateTimeKind.Local).AddTicks(3973),
                             SubscriptionId = 2,
                             Username = "user3"
                         },
@@ -350,10 +606,80 @@ namespace TunifyPlatform.Migrations
                         {
                             UserId = 5,
                             Email = "user4@example.com",
-                            JoinDate = new DateTime(2024, 7, 7, 9, 57, 18, 214, DateTimeKind.Local).AddTicks(5845),
+                            JoinDate = new DateTime(2024, 7, 19, 14, 2, 5, 496, DateTimeKind.Local).AddTicks(3975),
                             SubscriptionId = 1,
                             Username = "user4"
                         });
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+                {
+                    b.HasOne("TunifyPlatform.Models.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+                {
+                    b.HasOne("TunifyPlatform.Models.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TunifyPlatform.Models.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+                {
+                    b.HasOne("TunifyPlatform.Models.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("TunifyPlatform.Models.ArtistSongs", b =>
+                {
+                    b.HasOne("TunifyPlatform.Models.Artist", "Artist")
+                        .WithMany("ArtistSongs")
+                        .HasForeignKey("ArtistId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("TunifyPlatform.Models.Song", "Song")
+                        .WithMany("ArtistSongs")
+                        .HasForeignKey("SongId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Artist");
+
+                    b.Navigation("Song");
                 });
 
             modelBuilder.Entity("TunifyPlatform.Models.Playlist", b =>
@@ -423,6 +749,8 @@ namespace TunifyPlatform.Migrations
 
             modelBuilder.Entity("TunifyPlatform.Models.Artist", b =>
                 {
+                    b.Navigation("ArtistSongs");
+
                     b.Navigation("Songs");
                 });
 
@@ -433,6 +761,8 @@ namespace TunifyPlatform.Migrations
 
             modelBuilder.Entity("TunifyPlatform.Models.Song", b =>
                 {
+                    b.Navigation("ArtistSongs");
+
                     b.Navigation("PlaylistSongs");
                 });
 
