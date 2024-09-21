@@ -1,12 +1,364 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\repositories\\services\\playlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\repositories\\services\\playlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\repositories\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\repositories\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\repositories\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\repositories\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\repositories\\services\\artistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\repositories\\services\\artistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\repositories\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\repositories\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\repositories\\interfaces\\isong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\repositories\\interfaces\\isong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\repositories\\interfaces\\iplaylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\repositories\\interfaces\\iplaylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\repositories\\interfaces\\iartistsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\repositories\\interfaces\\iartistsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\repositories\\interfaces\\iartist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\repositories\\interfaces\\iartist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\repositories\\interfaces\\iaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\repositories\\interfaces\\iaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\models\\artistsongs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\models\\artistsongs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\migrations\\20240818032321_seedingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\migrations\\20240818032321_seedingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\data\\tunifydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\data\\tunifydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|c:\\users\\yassin\\source\\repos\\tunify-platform\\tunifyplatform\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A92087B4-5CDE-4F81-895D-DA2B6365F560}|TunifyPlatform\\TunifyPlatform.csproj|solutionrelative:tunifyplatform\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlaylistService.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\Services\\PlaylistService.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Repositories\\Services\\PlaylistService.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\Services\\PlaylistService.cs",
+              "RelativeToolTip": "TunifyPlatform\\Repositories\\Services\\PlaylistService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:28:40.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Repositories\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\Services\\UserService.cs",
+              "RelativeToolTip": "TunifyPlatform\\Repositories\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:28:31.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Repositories\\Services\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "TunifyPlatform\\Repositories\\Services\\JwtTokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:28:23.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArtistService.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\Services\\ArtistService.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Repositories\\Services\\ArtistService.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\Services\\ArtistService.cs",
+              "RelativeToolTip": "TunifyPlatform\\Repositories\\Services\\ArtistService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:28:19.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\interfaces\\IUser.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Repositories\\interfaces\\IUser.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\interfaces\\IUser.cs",
+              "RelativeToolTip": "TunifyPlatform\\Repositories\\interfaces\\IUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:28:12.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISong.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\interfaces\\ISong.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Repositories\\interfaces\\ISong.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\interfaces\\ISong.cs",
+              "RelativeToolTip": "TunifyPlatform\\Repositories\\interfaces\\ISong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:28:09.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPlayList.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\interfaces\\IPlayList.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Repositories\\interfaces\\IPlayList.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\interfaces\\IPlayList.cs",
+              "RelativeToolTip": "TunifyPlatform\\Repositories\\interfaces\\IPlayList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:28:04.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IArtistSong.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\interfaces\\IArtistSong.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Repositories\\interfaces\\IArtistSong.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\interfaces\\IArtistSong.cs",
+              "RelativeToolTip": "TunifyPlatform\\Repositories\\interfaces\\IArtistSong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:27:59.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IArtist.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\interfaces\\IArtist.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Repositories\\interfaces\\IArtist.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\interfaces\\IArtist.cs",
+              "RelativeToolTip": "TunifyPlatform\\Repositories\\interfaces\\IArtist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:27:55.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\interfaces\\IAccount.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Repositories\\interfaces\\IAccount.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Repositories\\interfaces\\IAccount.cs",
+              "RelativeToolTip": "TunifyPlatform\\Repositories\\interfaces\\IAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:27:46.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Models\\User.cs",
+              "RelativeToolTip": "TunifyPlatform\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:27:37.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ArtistSongs.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Models\\ArtistSongs.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Models\\ArtistSongs.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Models\\ArtistSongs.cs",
+              "RelativeToolTip": "TunifyPlatform\\Models\\ArtistSongs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:27:32.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Models\\Artist.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Models\\Artist.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Models\\Artist.cs",
+              "RelativeToolTip": "TunifyPlatform\\Models\\Artist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:27:27.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "TunifyPlatform\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:27:24.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240818032321_seedingData.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Migrations\\20240818032321_seedingData.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Migrations\\20240818032321_seedingData.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Migrations\\20240818032321_seedingData.cs",
+              "RelativeToolTip": "TunifyPlatform\\Migrations\\20240818032321_seedingData.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAmwFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:27:12.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TunifyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Data\\TunifyDbContext.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Data\\TunifyDbContext.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Data\\TunifyDbContext.cs",
+              "RelativeToolTip": "TunifyPlatform\\Data\\TunifyDbContext.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAcwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:27:02.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "TunifyPlatform\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:26:55.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SongsController.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Controllers\\SongsController.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Controllers\\SongsController.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Controllers\\SongsController.cs",
+              "RelativeToolTip": "TunifyPlatform\\Controllers\\SongsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:26:52.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "TunifyPlatform\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T08:26:49.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TunifyPlatform\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Yassin\\source\\repos\\Tunify-Platform\\TunifyPlatform\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TunifyPlatform\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-21T08:26:43.167Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
