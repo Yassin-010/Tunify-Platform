@@ -59,6 +59,7 @@ namespace TunifyPlatform.Data
                 .HasForeignKey(ps => ps.SongId);
 
             modelBuilder.Entity<ArtistSongs>()
+
     .HasKey(a => new { a.ArtistId, a.SongId });
 
             modelBuilder.Entity<ArtistSongs>()

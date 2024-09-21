@@ -8,6 +8,7 @@ namespace TunifyPlatform.Repositories.Services
 {
     public class JwtTokenService
     {
+
         private readonly IConfiguration _configuration;
         private readonly SignInManager<ApplicationUser> _signInManager;
 
@@ -19,8 +20,7 @@ namespace TunifyPlatform.Repositories.Services
 
         public static TokenValidationParameters ValidateToken(IConfiguration configuration)
         {
-            return new TokenValidationParameters
-            {
+            return new TokenValidationParameters {
                 ValidateIssuerSigningKey = true,
                 IssuerSigningKey = GetSecurityKey(configuration),
                 ValidateIssuer = false,
