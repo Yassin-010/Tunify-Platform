@@ -79,10 +79,16 @@ namespace TunifyPlatform.Migrations
                 value: new DateTime(2024, 7, 17, 9, 57, 18, 214, DateTimeKind.Local).AddTicks(5844));
 
             migrationBuilder.UpdateData(
+
                 table: "Users",
+
+
                 keyColumn: "UserId",
+
                 keyValue: 5,
+
                 column: "JoinDate",
+               
                 value: new DateTime(2024, 7, 7, 9, 57, 18, 214, DateTimeKind.Local).AddTicks(5845));
         }
     }

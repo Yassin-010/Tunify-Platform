@@ -14,6 +14,7 @@ namespace TunifyPlatform.Repositories.Services
             _context = context;
         }
 
+
         public async Task<IEnumerable<Playlist>> GetAllPlaylistsAsync()
         {
             return await _context.Playlists.ToListAsync();

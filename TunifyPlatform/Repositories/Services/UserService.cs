@@ -5,9 +5,13 @@ using TunifyPlatform.Repositories.Interfaces;
 
 namespace TunifyPlatform.Repositories.Services
 {
+
     public class UserRepository : IUserRepository
     {
+
         private readonly TunifyDbContext _context;
+
+
 
         public UserRepository(TunifyDbContext context)
         {

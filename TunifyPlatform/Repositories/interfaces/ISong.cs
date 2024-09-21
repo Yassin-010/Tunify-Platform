@@ -4,6 +4,7 @@ namespace TunifyPlatform.Repositories.Interfaces
 {
     public interface ISongRepository
     {
+
         Task<IEnumerable<Song>> GetAllSongsAsync();
         Task<Song> GetSongByIdAsync(int id);
         Task AddSongAsync(Song song);
